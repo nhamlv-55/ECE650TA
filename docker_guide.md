@@ -24,7 +24,6 @@ and I want to map it to
 `
 /home/ece650
 `
-
 in my container.
 ### Get the image for the course
 
