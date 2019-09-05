@@ -47,7 +47,7 @@ You should see somethings like
 
 ```
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
-1d76bdabed24        levn/ece650base     "/bin/bash"         8 minutes ago       Up 7 minutes                            ece650
+1d76bdabed24        levn/ece650base     "/bin/bash"         8 minutes ago       Up 7 minutes                            ECE650
 l
 ```
 ### Use the container
