@@ -57,16 +57,19 @@ docker exec -it ECE650 /bin/bash
 `
 You will see your prompt turn into something like 
 
+
 `root@bce6b727fb8e`
 
 , indicating that you are now inside the container as `root`.
 Now you can go to the work directory
+
 
 `
 cd /home/ece650
 `
 
 and you can try to create an empty file.
+
 `
 touch hello.txt
 `
