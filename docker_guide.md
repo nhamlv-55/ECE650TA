@@ -52,11 +52,10 @@ l
 ```
 ### Use the container
 Run
-`
-docker exec -it ECE650 /bin/bash
-`
-You will see your prompt turn into something like 
 
+`docker exec -it ECE650 /bin/bash`
+
+You will see your prompt turn into something like 
 
 `root@bce6b727fb8e`
 
