@@ -32,6 +32,7 @@ in my container.
 ### Create a container (think about it as a virtual machine) using the downloaded image
 
 `docker run -dit -v /home/levn/workspace/ece650/:/home/ece650/ --name ECE650 levn/ece650base`
+
 Explanation:
 * `docker run` is the command to create a container
 * `-dit` is to `detach` the screen
