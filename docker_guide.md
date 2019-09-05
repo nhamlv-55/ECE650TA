@@ -48,9 +48,25 @@ Run
 `
 docker exec -it ECE650 /bin/bash
 `
-You will see your prompt turn into something like `root@bce6b727fb8e`, indicating that you are now inside the container as `root`.
+You will see your prompt turn into something like 
+
+`root@bce6b727fb8e`
+
+, indicating that you are now inside the container as `root`.
 Now you can go to the work directory
+
 `
 cd /home/ece650
 `
+Try to create an empty file
+`
+touch hello.txt
+`
+### Exit the container
+Use
 
+`
+exit
+`
+
+Now in your local machine, you should see the file `hello.txt` in `/home/levn/workspace/ece650`
