@@ -19,6 +19,13 @@ For this part, I assume that on my local machine, my work directory is
 `
 /home/levn/workspace/ece650/
 `
+
+and I want to map it to 
+`
+/home/ece650
+`
+
+in my container.
 ### Get the image for the course
 
 `docker pull levn/ece650base`
@@ -58,15 +65,18 @@ Now you can go to the work directory
 `
 cd /home/ece650
 `
-Try to create an empty file
+
+and you can try to create an empty file.
 `
 touch hello.txt
 `
 ### Exit the container
-Use
+Type
 
 `
 exit
 `
 
-Now in your local machine, you should see the file `hello.txt` in `/home/levn/workspace/ece650`
+Now in your local machine, you should see the prompt returns to normal, indicating that you are now out of the container. 
+
+You should also be able to find the file `hello.txt` in `/home/levn/workspace/ece650` as well.
